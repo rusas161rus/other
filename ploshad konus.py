@@ -31,9 +31,8 @@ while True:
 
         
     if R>=1 and r>=1 and h>=1:
-        sqrt=math.sqrt((R-r)**2+h**2)
-        L=sqrt
-        S=math.pi*(R+r)*L
+        sqrt=math.sqrt((R-r)**2+h**2)        
+        S=math.pi*(R+r)*sqrt
         V=1/3*math.pi*h*(R**2+R*r+r**2)
         break
 
